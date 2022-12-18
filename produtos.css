@@ -90,61 +90,68 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
+/* Página de contato */
+.contato {
 	width: 940px;
-	margin: 0 auto;
+	margin: 40px auto;
 }
 
-form {
-	margin: 40px 0;
-}
-
-form label, form legend {
-	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
-
-.input-padrao {
+.contato label, .input-group legend {
 	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
+	margin: 0 0 5px;
+	font-size: 20px;
+}
+
+.campo-padrao, textarea {
+	display: block;
+	margin: 0 0 30px;
+	padding: 10px 20px;
 	width: 50%;
+	border: 1px solid #aaa;
 }
 
-.checkbox {
-	margin: 20px 0;
+.input-group {
+	margin: 0 0 20px;
 }
 
-.enviar {
-	width: 40%;
-	padding: 15px 0;
-	background-color: orange;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: 18px;
+.newsletter {
+	margin: 0 0 20px;
+}
+
+.botao {
+	margin: 20px 0 0;
+	width: 30%;
+	padding: 10px 20px;
+	font-size: 24px;
+	display: inline-block;
+	background: orange;
+	color: white;
 	border: none;
 	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
+	transition: 1s;
 }
 
-.enviar:hover {
-	background-color: darkorange;
-	transform: scale(1.2);
+.botao:hover {
+	cursor: pointer;
+	transform: scale(1.2);	
+}
+
+.funcionamento {
+	width: 940px;
+	margin: 0 auto 40px;
 }
 
 table {
-	margin: 20px 40px;
+	margin: 10px 0 0;
 }
 
-thead {
-	background-color: #555555;
+th  {
+	background: #777777;
 	color: #FFFFFF;
-	font-weight: bold;
 }
+
 
 td, th {
 	border: 1px solid #000000;
-	padding: 8px 15px;
+	padding: 5px 20px;
 }
